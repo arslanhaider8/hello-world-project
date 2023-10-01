@@ -1,4 +1,96 @@
-h{
-    color: blue;
-    text-align: center;
+
+
+
+nav {
+    display: flex ;
+    background-color: white;
+    text-shadow: black;
+    padding: 10px 0;
+    text-align: right;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+   
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    
+}
+
+
+
+
+.discription {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+
+@media screen and (min-width: 375px) {
+    
+    nav ul {
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+   
+    header {
+        padding: 20px 0;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    .discription {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    
+}
+
+.buttons{
+
+    align-content: space-around;
+    padding: 20%;
+    margin:  20%;
+    inline-size: 50%;
+}
+
+
+portfolio {
+ 
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  
+  img {
+    position: absolute;
+    width: max-content;
+    align-content: center;
+  }
